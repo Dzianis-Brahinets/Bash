@@ -2,7 +2,7 @@
 ### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gnu-bash-logo.svg/2560px-Gnu-bash-logo.svg.png" title="bash logo" alt="bash logo" width="400" height="150"/> 
 ### Работа с командной строкой BASH
 <hr>
-Мной был установлен и настроен GitBASH и VSCode. С помощью которых можно отправлять взаимодействовать с сервером.<br>
+Мной был установлен и настроен GitBASH и VSCode. С помощью которых можно взаимодействовать с сервером.<br>
  С заданием и решением к ним можно ознакомиться ниже.
 
 
