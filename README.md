@@ -6,8 +6,7 @@
  С заданием и решением к ним можно ознакомиться ниже.
 
 
-<title>Таблица1</title>
-</head>
+
 <body>
 <table border="1">
   <tr><th>№</th><th>Команда</th><th>Описание</th></tr>
@@ -35,8 +34,7 @@
 
 
 
-<title>Таблица2</title>
-</head>
+Таблица2
 <body>
 <table border="1">
   <tr><th>№</th><th>Команда</th><th>Описание</th></tr>
