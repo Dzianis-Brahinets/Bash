@@ -2,9 +2,9 @@
 ### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gnu-bash-logo.svg/2560px-Gnu-bash-logo.svg.png" title="bash logo" alt="bash logo" width="400" height="150"/> 
 ### Работа с командной строкой BASH
 <hr>
-<p>Был установлен и настроен GitBASH и VSCode.<br>
-Были выполненны работы командами Bash с файлами, разделами и HTTP-запросами.<br>
- Задачи, которые ставились передо мной, и их решения приведены ниже.</p>
+<p>Установлен и настроен GitBASH и VSCode.<br>
+Выполненны работы командами Bash с файлами, разделами и HTTP-запросами.<br>
+Задачи, которые ставились передо мной, и их решения приведены ниже.</p>
 
 
 
