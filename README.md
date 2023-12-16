@@ -2,12 +2,13 @@
 ### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gnu-bash-logo.svg/2560px-Gnu-bash-logo.svg.png" title="bash logo" alt="bash logo" width="400" height="150"/> 
 ### Работа с командной строкой BASH
 <hr>
-Мной был установлен и настроен GitBASH и VSCode. С помощью которых можно взаимодействовать с сервером.<br>
- С заданием и решением к ним можно ознакомиться ниже.
+<p>Был установлен и настроен GitBASH и VSCode.<br>
+Были выполненны работы командами Bash с файлами, разделами и HTTP-запросами.<br>
+ Задачи, которые ставились передо мной, и их решения приведены ниже.</p>
 
 
 
-<body>
+<h2>Задание 1</h2>
 <table border="1">
   <tr><th>№</th><th>Команда</th><th>Описание</th></tr>
   <tr><td>1</td><td>$ cd ~</td><td>Открыть домашнюю директорию</td></tr>
@@ -26,15 +27,14 @@
   <tr><td>14</td><td>$ mv test1/{1,3}.txt test4</td><td>Переместить файлы 1 и 3 из папки test1 в папку test4</td></tr>
   <tr><td>15</td><td>$ echo -e "line\nline\nline" >> test4/1.txt</td><td>Добавить в файл 1 три строки со словами line</td></tr>
   <tr><td>16</td><td>$ cat test4/1.txt</td><td>Посмотреть содержимое файла 1</td></tr>
-  <tr><td>17</td><td>$ echo -e "line\nline\nline" >> test4/3.txt</td><td>Добавьте в файл 3 три строки со словами line</td></tr>
-  <tr><td>18</td><td>$ cat test4/{1,3}.txt</td><td>Просмотрите содержимое двух файлов (1 и 3) сразу</td></tr>
-  <tr><td>19</td><td>$ vim test4/1.txt(Во всех строках вместо "line" ввел "Zero")<br>:wq (для выхода из режима редактора)</td><td>Используя один из редакторов замените все строки в файле 1</td></tr>
-
+  <tr><td>17</td><td>$ echo -e "line\nline\nline" >> test4/3.txt</td><td>Добавите в файл 3 три строки со словами line</td></tr>
+  <tr><td>18</td><td>$ cat test4/{1,3}.txt</td><td>Просмотреть содержимое двух файлов (1 и 3) сразу</td></tr>
+  <tr><td>19</td><td>$ vim test4/1.txt(Во всех строках вместо "line" ввел "Zero")<br>:wq (для выхода из режима редактора)</td><td>Используя один из редакторов заменить все строки в файле 1</td></tr>
 </table>
 
 
 
-Таблица2
+<h2>Задание 2</h2>
 <body>
 <table border="1">
   <tr><th>№</th><th>Команда</th><th>Описание</th></tr>
@@ -44,21 +44,21 @@
   > test3/4.txt && echo -e "row1\nrow2\nrow3\nrow4" <br>
   > test3/5.txt && echo -e "row1\nrow2\nrow3\nrow4" <br>
   > test3/6</td><td>Добавить в папку test3 три файла 4, 5 и 6,<br> в каждом из которых должно быть по 4 строки row1, row2, row3, row4</td></tr>
-  <tr><td>4</td><td>$ grep "row2" test3/5.txt</td><td>Найдите строку row2 в файле 5</td></tr>
-  <tr><td>5</td><td>$ grep -R "row" test3</td><td>Найдите строку row в папке test3</td></tr>
-  <tr><td>6</td><td>$ grep -c "row" test3/6.txt</td><td>Посчитайте сколько строк с содержимым row в файле 6</td></tr>
-  <tr><td>7</td><td>$ find test3 -name "5.txt"</td><td>Найдите файл 5 внутри папки test3</td></tr>
-  <tr><td>8</td><td>$ find test3 -name "5.txt" -delete</td><td>Используя команду find, удалите файл 5</td></tr>
-  <tr><td>9</td><td>$ echo "test" >> test3/4.txt</td><td>Используя команду echo, добавьте слово test в файл 4</td></tr>
-  <tr><td>10</td><td>$ sed  -i 's/test/fail/g' test3/4.txt</td><td>Замените слово test в файле 4 на fail</td></tr>
-  <tr><td>11</td><td>$ echo  "test" >> test3/4.txt</td><td>Добавьте в файл 4 слово test так, чтобы сохранилось содержимое</td></tr>
-  <tr><td>12</td><td>$ ps aux</td><td>Просмотрите все процессы для юзеров не <br>только в консоли, которые происходят в системе</td></tr>
-  <tr><td>13</td><td>$ kill 666</td><td>Убейте процесс 666 в консоли</td></tr>
-  <tr><td>14</td><td>$ ping artsiomrusau.com</td><td>Узнайте доступность ресурса artsiomrusau.com, используя ping</td></tr>
-  <tr><td>15</td><td>$ ping -n 5 artsiomrusau.com</td><td>Отправьте 5 пакетов на сайт artsiomrusau.com</td></tr>
+  <tr><td>4</td><td>$ grep "row2" test3/5.txt</td><td>Найти строку row2 в файле 5</td></tr>
+  <tr><td>5</td><td>$ grep -R "row" test3</td><td>Найти строку row в папке test3</td></tr>
+  <tr><td>6</td><td>$ grep -c "row" test3/6.txt</td><td>Посчитать сколько строк с содержимым row в файле 6</td></tr>
+  <tr><td>7</td><td>$ find test3 -name "5.txt"</td><td>Найти файл 5 внутри папки test3</td></tr>
+  <tr><td>8</td><td>$ find test3 -name "5.txt" -delete</td><td>Используя команду find, удалить файл 5</td></tr>
+  <tr><td>9</td><td>$ echo "test" >> test3/4.txt</td><td>Используя команду echo, добавить слово test в файл 4</td></tr>
+  <tr><td>10</td><td>$ sed  -i 's/test/fail/g' test3/4.txt</td><td>Заменить слово test в файле 4 на fail</td></tr>
+  <tr><td>11</td><td>$ echo  "test" >> test3/4.txt</td><td>Добавить в файл 4 слово test так, чтобы сохранилось содержимое</td></tr>
+  <tr><td>12</td><td>$ ps aux</td><td>Просмотреть все процессы для юзеров не <br>только в консоли, которые происходят в системе</td></tr>
+  <tr><td>13</td><td>$ kill 666</td><td>Убийть процесс 666 в консоли</td></tr>
+  <tr><td>14</td><td>$ ping artsiomrusau.com</td><td>Узнать доступность ресурса artsiomrusau.com, используя ping</td></tr>
+  <tr><td>15</td><td>$ ping -n 5 artsiomrusau.com</td><td>Отправить 5 пакетов на сайт artsiomrusau.com</td></tr>
   <tr><td>16</td><td>$  curl -X 'GET' \<br>
 	>   'https://petstore.swagger.io/v2/pet/findByStatus?status=available' \<br>
-	>   -H 'accept: application/json'</td><td>Используя GET и команду curl, получите информацию<br> о зарегистрированных питомцах на https://petstore.swagger.io/</td></tr>
+	>   -H 'accept: application/json'</td><td>Используя GET и команду curl, получить информацию<br> о зарегистрированных питомцах на https://petstore.swagger.io/</td></tr>
   <tr><td>17</td><td>$ curl -X 'POST' \
   'https://petstore.swagger.io/v2/user' \
   -H 'accept: application/json' \<br>
@@ -72,5 +72,5 @@
   "password": "34567",<br>
   "phone": "12345678",<br>
   "userStatus": 0
-}'</td><td>Используя POST и команду curl, создайте нового пользователя<br> на https://petstore.swagger.io/</td></tr>
+}'</td><td>Используя POST и команду curl, создать нового пользователя<br> на https://petstore.swagger.io/</td></tr>
   </table>
